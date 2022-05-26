@@ -1,14 +1,14 @@
 # Maintainer: DarkXero <info@techxero.com>
-pkgname=kde-rice
+pkgname=kde-rice-dev
 _destname1="/etc"
-pkgver=22.05
-pkgrel=8
+pkgver=22.06
+pkgrel=1
 pkgdesc="Desktop Config for XeroLinux"
 arch=('any')
-url="https://github.com/xerolinux"
+url="https://github.com/XeroLinuxDev"
 license=('GPL3')
 makedepends=('git')
-replaces=('xerolinux-rice')
+replaces=('xerolinux-rice' 'kde-rice')
 conflicts=()
 provides=("${pkgname}")
 options=(!strip !emptydirs)
@@ -21,4 +21,5 @@ package() {
 	rm ${srcdir}/${pkgname}/push.sh
 	rm ${srcdir}/${pkgname}/README.md
 	rm ${srcdir}/${pkgname}/PKGBUILD
+	rm ${srcdir}/${pkgname}/LICENSE
 }
