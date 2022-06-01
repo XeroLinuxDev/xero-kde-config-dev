@@ -3,7 +3,6 @@ update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-
 
 [Compositing]
 GLCore=true
-GLTextureFilter=1
 OpenGLIsUnsafe=false
 
 [Desktops]
@@ -27,7 +26,6 @@ WobblynessLevel=1
 Meta=org.kde.plasmashell,/PlasmaShell,org.kde.PlasmaShell,activateLauncherMenu
 
 [Plugins]
-autocomposerEnabled=true
 blurEnabled=true
 contrastEnabled=false
 desktopchangeosdEnabled=false
