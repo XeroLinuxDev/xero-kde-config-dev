@@ -33,7 +33,7 @@ ToolBoxButtonY=32
 
 [Containments][1][Wallpaper][org.kde.image][General]
 FillMode=0
-Image=file:///home/xero/Downloads/XeroLinux(2).png
+Image=file:///usr/share/defaultbg/XeroLinux.png
 SlidePaths=/usr/share/defaultbg,$HOME/.local/share/wallpapers/
 
 [Containments][2]
