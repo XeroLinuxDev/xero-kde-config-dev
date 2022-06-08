@@ -24,6 +24,9 @@ windowSize=980,630
 [PlasmaThemeExtended]
 outlineWidth=1
 
+[ScreenConnectors]
+10=Virtual-1:::0,0 1920x1080
+
 [UniversalSettings]
 badges3DStyle=false
 canDisableBorders=false

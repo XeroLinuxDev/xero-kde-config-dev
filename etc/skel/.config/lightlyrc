@@ -1,0 +1,8 @@
+[Style]
+DolphinSidebarOpacity=81
+KTextEditDrawFrame=true
+MenuOpacity=96
+SidePanelDrawFrame=true
+TabDrawHighlight=true
+ToolBarDrawItemSeparator=true
+UnifiedTabBarKonsole=true

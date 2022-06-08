@@ -1,5 +1,5 @@
 [Appearance]
-ColorScheme=AplumaDark
+ColorScheme=cherry
 
 [Cursor Options]
 CursorShape=1

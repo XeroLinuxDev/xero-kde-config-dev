@@ -24,7 +24,7 @@ DialogWidth=720
 ToolBoxButtonY=32
 
 [Containments][1][Configuration]
-PreloadWeight=26
+PreloadWeight=18
 
 [Containments][1][General]
 ToolBoxButtonState=topcenter
@@ -32,7 +32,8 @@ ToolBoxButtonX=576
 ToolBoxButtonY=32
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/defaultbg/XeroLinux.png
+FillMode=0
+Image=file:///home/xero/Downloads/XeroLinux(2).png
 SlidePaths=/usr/share/defaultbg,$HOME/.local/share/wallpapers/
 
 [Containments][2]
@@ -72,32 +73,6 @@ plugin=org.kde.latte.separator
 [Containments][2][Applets][25][Configuration]
 PreloadWeight=34
 
-[Containments][2][Applets][26]
-immutability=1
-plugin=org.kde.plasma.systemmonitor
-
-[Containments][2][Applets][26][Configuration]
-PreloadWeight=34
-
-[Containments][2][Applets][26][Configuration][Appearance]
-chartFace=org.kde.ksysguard.textonly
-title=Total CPU Use
-
-[Containments][2][Applets][26][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][2][Applets][26][Configuration][SensorColors]
-cpu/all/usage=86,87,245
-
-[Containments][2][Applets][26][Configuration][SensorLabels]
-cpu/all/usage=CPU
-
-[Containments][2][Applets][26][Configuration][Sensors]
-highPrioritySensorIds=["cpu/all/usage"]
-lowPrioritySensorIds=["cpu/all/cpuCount","cpu/all/coreCount"]
-totalSensors=["cpu/all/usage"]
-
 [Containments][2][Applets][27]
 immutability=1
 plugin=org.kde.latte.separator
@@ -124,24 +99,8 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][2][Applets][30][Configuration]
+localPath=/home/xero/.local/share/plasma_icons/system-tool.desktop
 url=file:///usr/share/applications/system-tool.desktop
-
-[Containments][2][Applets][34]
-immutability=1
-plugin=org.kde.plasma.togglecompositing
-
-[Containments][2][Applets][34][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][2][Applets][34][Configuration][General]
-customCompOffIcon=offgame
-customCompOnIcon=applications-games-symbolic
-customIcon=true
-defaultIcon=false
-
-[Containments][2][Applets][34][Shortcuts]
-global=Meta+Ctrl+Shift+C
 
 [Containments][2][Applets][4]
 immutability=1
@@ -160,7 +119,6 @@ customButtonImage=/usr/share/logos/xero.png
 favoritesPortedToKAstats=true
 showIconsRootLevel=true
 showRecentDocs=false
-useCustomButtonImage=true
 
 [Containments][2][Applets][4][Shortcuts]
 global=Meta+F1
@@ -172,6 +130,20 @@ plugin=org.kde.plasma.panelspacer
 [Containments][2][Applets][5][Configuration]
 PreloadWeight=34
 
+[Containments][2][Applets][55]
+immutability=1
+plugin=org.kde.plasma.compact-shutdown
+
+[Containments][2][Applets][55][Configuration]
+PreloadWeight=60
+
+[Containments][2][Applets][55][Configuration][Apperance]
+showSuspend=false
+
+[Containments][2][Applets][55][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][2][Applets][6]
 immutability=1
 plugin=org.kde.plasma.panelspacer
@@ -182,6 +154,14 @@ PreloadWeight=34
 [Containments][2][Applets][6][Configuration][General]
 length=741
 
+[Containments][2][Applets][62]
+immutability=1
+plugin=org.kde.plasma.systemtray
+
+[Containments][2][Applets][62][Configuration]
+PreloadWeight=55
+SystrayContainmentId=63
+
 [Containments][2][Applets][7]
 immutability=1
 plugin=org.kde.plasma.betterinlineclock
@@ -189,64 +169,70 @@ plugin=org.kde.plasma.betterinlineclock
 [Containments][2][Applets][7][Configuration]
 PreloadWeight=34
 
-[Containments][2][Applets][8]
+[Containments][2][Applets][77]
 immutability=1
-plugin=org.kde.plasma.systemtray
-
-[Containments][2][Applets][8][Configuration]
-PreloadWeight=59
-SystrayContainmentId=9
+plugin=com.github.zren.presentwindows
 
 [Containments][2][ConfigDialog]
-DialogHeight=84
+DialogHeight=74
 DialogWidth=1920
 
 [Containments][2][Configuration]
 PreloadWeight=34
 
 [Containments][2][General]
-AppletOrder=4;27;26;28;3;6;7;5;25;23;24;30;8
+AppletOrder=4;27;23;28;3;6;7;5;25;30;24;77;62;55
 
 [Containments][31]
-ItemGeometries-1920x1080=
-ItemGeometries-2560x1440=
-ItemGeometriesHorizontal=
-activityId=cd915191-804f-4d50-8fc3-f8e5c0279f54
-formfactor=0
+activityId=
+formfactor=2
 immutability=1
-lastScreen=1
-location=0
-plugin=org.kde.plasma.folder
+lastScreen=0
+location=4
+plugin=org.kde.panel
 wallpaperplugin=org.kde.image
+
+[Containments][31][Applets][34]
+immutability=1
+plugin=org.kde.plasma.icontasks
+
+[Containments][31][Applets][34][Configuration][General]
+launchers=preferred://filemanager,preferred://browser,applications:kvantummanager.desktop,applications:org.kde.konsole.desktop,applications:org.kde.kcalc.desktop,applications:grub-customizer.desktop,applications:systemsettings.desktop
+
+[Containments][31][Applets][53]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][31][Applets][54]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][31][Applets][60]
+immutability=1
+plugin=org.kde.plasma.pager
+
+[Containments][31][Applets][61]
+immutability=1
+plugin=com.github.k-donn.plasmoid-wunderground
+
+[Containments][31][Applets][61][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][31][Applets][61][Configuration][Station]
+latitude=33.863663
+longitude=35.597227
+refreshPeriod=30
+stationID=IMATND12
 
 [Containments][31][ConfigDialog]
-DialogHeight=660
-DialogWidth=880
+DialogHeight=74
+DialogWidth=1920
 
-[Containments][31][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/Xero-Plasma9.jpg
-SlidePaths=/usr/share/wallpapers
+[Containments][31][General]
+AppletOrder=61;54;34;53;60
 
-[Containments][32]
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
-activityId=cd915191-804f-4d50-8fc3-f8e5c0279f54
-formfactor=0
-immutability=1
-lastScreen=2
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][32][ConfigDialog]
-DialogHeight=660
-DialogWidth=880
-
-[Containments][32][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/Xero-Plasma9.jpg
-SlidePaths=/usr/share/wallpapers
-
-[Containments][9]
+[Containments][63]
 activityId=
 formfactor=2
 immutability=1
@@ -255,110 +241,68 @@ location=3
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
 
-[Containments][9][Applets][10]
+[Containments][63][Applets][64]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
-[Containments][9][Applets][10][Configuration]
-PreloadWeight=34
-
-[Containments][9][Applets][11]
-immutability=1
-plugin=org.kde.plasma.nightcolorcontrol
-
-[Containments][9][Applets][11][Configuration]
-PreloadWeight=34
-
-[Containments][9][Applets][12]
+[Containments][63][Applets][65]
 immutability=1
 plugin=org.kde.kdeconnect
 
-[Containments][9][Applets][12][Configuration]
-PreloadWeight=34
-
-[Containments][9][Applets][13]
-immutability=1
-plugin=org.kde.plasma.keyboardlayout
-
-[Containments][9][Applets][13][Configuration]
-PreloadWeight=34
-
-[Containments][9][Applets][14]
-immutability=1
-plugin=org.kde.plasma.notifications
-
-[Containments][9][Applets][14][Configuration]
-PreloadWeight=34
-
-[Containments][9][Applets][15]
-immutability=1
-plugin=org.kde.plasma.manage-inputmethod
-
-[Containments][9][Applets][15][Configuration]
-PreloadWeight=34
-
-[Containments][9][Applets][16]
-immutability=1
-plugin=org.kde.plasma.volume
-
-[Containments][9][Applets][17]
-immutability=1
-plugin=org.kde.plasma.devicenotifier
-
-[Containments][9][Applets][17][Configuration]
-PreloadWeight=34
-
-[Containments][9][Applets][18]
+[Containments][63][Applets][66]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
-[Containments][9][Applets][18][Configuration]
-PreloadWeight=34
-
-[Containments][9][Applets][19]
+[Containments][63][Applets][67]
 immutability=1
-plugin=org.kde.plasma.vault
+plugin=org.kde.plasma.devicenotifier
 
-[Containments][9][Applets][19][Configuration]
-PreloadWeight=34
-
-[Containments][9][Applets][20]
+[Containments][63][Applets][68]
 immutability=1
-plugin=org.kde.plasma.battery
+plugin=org.kde.plasma.keyboardlayout
 
-[Containments][9][Applets][20][Configuration]
-PreloadWeight=34
-
-[Containments][9][Applets][21]
+[Containments][63][Applets][69]
 immutability=1
-plugin=org.kde.plasma.networkmanagement
+plugin=org.kde.plasma.manage-inputmethod
 
-[Containments][9][Applets][21][Configuration]
-PreloadWeight=34
-
-[Containments][9][Applets][22]
+[Containments][63][Applets][70]
 immutability=1
-plugin=org.kde.plasma.bluetooth
+plugin=org.kde.plasma.nightcolorcontrol
 
-[Containments][9][Applets][29]
+[Containments][63][Applets][71]
+immutability=1
+plugin=org.kde.plasma.notifications
+
+[Containments][63][Applets][72]
 immutability=1
 plugin=org.kde.plasma.printmanager
 
-[Containments][9][Applets][29][Configuration]
-PreloadWeight=34
+[Containments][63][Applets][73]
+immutability=1
+plugin=org.kde.plasma.vault
 
-[Containments][9][ConfigDialog]
-DialogHeight=678
-DialogWidth=1094
+[Containments][63][Applets][74]
+immutability=1
+plugin=org.kde.plasma.volume
 
-[Containments][9][Configuration]
-PreloadWeight=34
+[Containments][63][Applets][75]
+immutability=1
+plugin=org.kde.plasma.battery
 
-[Containments][9][General]
-extraItems=org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.manage-inputmethod,org.kde.plasma.battery,org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.plasma.volume
-hiddenItems=Yakuake,NoMachineMonitor
-knownItems=org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.manage-inputmethod,org.kde.plasma.battery,org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.plasma.volume
-shownItems=caffeine
+[Containments][63][Applets][76]
+immutability=1
+plugin=org.kde.plasma.networkmanagement
+
+[Containments][63][Applets][78]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][63][Applets][78][Configuration]
+PreloadWeight=26
+
+[Containments][63][General]
+extraItems=org.kde.plasma.keyboardindicator,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume
+knownItems=org.kde.plasma.keyboardindicator,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume
 
 [ScreenMapping]
 itemsOnDisabledScreens=
