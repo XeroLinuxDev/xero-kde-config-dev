@@ -99,7 +99,6 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][2][Applets][30][Configuration]
-localPath=/home/xero/.local/share/plasma_icons/system-tool.desktop
 url=file:///usr/share/applications/system-tool.desktop
 
 [Containments][2][Applets][4]
