@@ -18,8 +18,8 @@ BlurStrength=7
 NoiseStrength=2
 
 [Effect-DimInactive]
-DimDesktop=true
 DimKeepAbove=true
+Strength=12
 
 [Effect-PresentWindows]
 BorderActivateAll=9
@@ -55,10 +55,12 @@ opacitymenuEnabled=true
 overviewEnabled=true
 presentwindowsEnabled=true
 screenSnapping5Enabled=true
+screenedgeEnabled=false
 sheetEnabled=true
 slideEnabled=false
 slidebackEnabled=true
 synchronizeskipswitcherEnabled=false
+thumbnailasideEnabled=true
 videowallEnabled=false
 wobblywindowsEnabled=true
 

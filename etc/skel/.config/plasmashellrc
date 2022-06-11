@@ -1,3 +1,6 @@
+[PlasmaTransientsConfig]
+PreloadWeight=18
+
 [PlasmaViews][Panel 2]
 alignment=132
 panelOpacity=2
@@ -37,6 +40,9 @@ panelVisibility=2
 [PlasmaViews][Panel 31][Defaults]
 maxLength=1786
 minLength=1786
+thickness=38
+
+[PlasmaViews][Panel 31][Horizontal1280]
 thickness=38
 
 [PlasmaViews][Panel 31][Horizontal1920]
