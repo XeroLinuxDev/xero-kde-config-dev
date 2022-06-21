@@ -13,10 +13,6 @@ Id_3=6f70ab1a-627e-4c80-bf04-b9a6f03afbc7
 Number=3
 Rows=1
 
-[Effect-Blur]
-BlurStrength=7
-NoiseStrength=2
-
 [Effect-DimInactive]
 DimKeepAbove=true
 Strength=12
@@ -30,8 +26,8 @@ Stiffness=10
 WobblynessLevel=1
 
 [Effect-blur]
-BlurStrength=10
-NoiseStrength=4
+BlurStrength=12
+NoiseStrength=6
 
 [Effect-diminactive]
 DimKeepAbove=true
@@ -57,7 +53,7 @@ desktopchangeosdEnabled=false
 desktopgridEnabled=true
 diminactiveEnabled=true
 force-decorations-gtk3Enabled=true
-forceblurEnabled=false
+forceblurEnabled=true
 kwin4_effect_dimscreenEnabled=true
 kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_frozenappEnabled=false
