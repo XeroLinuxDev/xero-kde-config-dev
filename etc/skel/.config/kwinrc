@@ -26,8 +26,8 @@ Stiffness=10
 WobblynessLevel=1
 
 [Effect-blur]
-BlurStrength=12
-NoiseStrength=6
+BlurStrength=6
+NoiseStrength=0
 
 [Effect-diminactive]
 DimKeepAbove=true
