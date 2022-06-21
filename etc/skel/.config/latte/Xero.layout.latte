@@ -50,11 +50,13 @@ plugin=org.kde.latte.plasmoid
 PreloadWeight=0
 
 [Containments][15][Applets][193][Configuration][General]
+animationLauncherBouncing=false
 animationWindowAddedInGroup=false
 animationWindowInAttention=false
 hoverAction=PreviewWindows
 infoBadgeProminentColorEnabled=true
 isInLatteDock=true
+isPreferredForDroppedLaunchers=false
 launchers59=file:///latte-separator1.desktop,applications:org.kde.dolphin.desktop,applications:firefox.desktop,applications:kvantummanager.desktop,applications:org.kde.konsole.desktop,applications:systemsettings.desktop,applications:org.gnome.DiskUtility.desktop,applications:grub-customizer.desktop,file:///latte-separator2.desktop
 previewWindowAsPopup=true
 showOnlyCurrentActivity=false
@@ -74,7 +76,7 @@ alignmentUpgraded=true
 appletOrder=110;193
 autoDecreaseIconSize=false
 backgroundRadius=24
-backgroundShadowSize=6
+backgroundShadowSize=16
 closeActiveWindowEnabled=true
 configurationSticker=true
 dragActiveWindowEnabled=true
@@ -87,13 +89,13 @@ lastSidebarVisibilityMode=9
 lengthExtMargin=5
 mouseWheelActions=false
 panelPosition=10
-panelSize=0
+panelSize=100
 panelTransparency=24
 plasmaBackgroundForPopups=true
 screenEdgeMargin=16
 scrollAction=ScrollTasks
-shadowOpacity=0
-shadowSize=0
+shadowOpacity=25
+shadowSize=15
 shadows=None
 shadowsUpgraded=true
 splitterPosition=3
@@ -108,7 +110,7 @@ customType=org.kde.latte.dashtopanel
 enabled=true
 enabledForApplets=true
 padding=0.09000000357627869
-type=org.kde.latte.plasma
+type=org.kde.latte.default
 
 [Containments][15][Indicator][org.kde.latte.dashtopanel][General]
 lengthPadding=0.2
@@ -118,7 +120,7 @@ maxBackgroundOpacity=0.2
 [Containments][15][Indicator][org.kde.latte.default][General]
 activeStyle=Dot
 reversed=true
-size=0.03
+thickMargin=0.07
 
 [Containments][15][Indicator][org.kde.latte.plasma][General]
 clickedAnimationEnabled=true
