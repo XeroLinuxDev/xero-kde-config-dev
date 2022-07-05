@@ -38,7 +38,7 @@ Stiffness=10
 WobblynessLevel=1
 
 [ModifierOnlyShortcuts]
-Meta=org.kde.plasmashell,/PlasmaShell,org.kde.PlasmaShell,activateLauncherMenu
+Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
 
 [Plugins]
 alwaysopenonfocusedscreenEnabled=true
