@@ -1,8 +1,8 @@
 # Maintainer: DarkXero <info@techxero.com>
 pkgname=xero-kde-config-dev
 _destname1="/etc"
-pkgver=22.06
-pkgrel=13
+pkgver=22.07
+pkgrel=1
 pkgdesc="Desktop Config for XeroLinux"
 arch=('any')
 url="https://github.com/XeroLinuxDev"
