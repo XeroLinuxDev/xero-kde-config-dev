@@ -2,7 +2,7 @@
 pkgname=xero-kde-config-dev
 _destname1="/etc"
 pkgver=22.07
-pkgrel=1
+pkgrel=4
 pkgdesc="Desktop Config for XeroLinux"
 arch=('any')
 url="https://github.com/XeroLinuxDev"
