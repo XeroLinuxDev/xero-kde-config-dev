@@ -9,6 +9,7 @@ RightButton;NoModifier=org.kde.contextmenu
 ItemGeometries-1024x768=
 ItemGeometries-1280x800=
 ItemGeometries-1920x1080=
+ItemGeometries-2560x1440=
 ItemGeometriesHorizontal=
 activityId=cd915191-804f-4d50-8fc3-f8e5c0279f54
 formfactor=0
@@ -105,6 +106,10 @@ PreloadWeight=31
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
+[Containments][63][Applets][89]
+immutability=1
+plugin=org.kde.plasma.bluetooth
+
 [Containments][63][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
@@ -112,6 +117,25 @@ DialogWidth=720
 [Containments][63][General]
 extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.kde.plasma.keyboardindicator
 knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.keyboardindicator
+
+[Containments][88]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
+activityId=cd915191-804f-4d50-8fc3-f8e5c0279f54
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][88][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][88][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/Xero-Plasma1.png
+SlidePaths=/usr/share/wallpapers
 
 [ScreenMapping]
 itemsOnDisabledScreens=
