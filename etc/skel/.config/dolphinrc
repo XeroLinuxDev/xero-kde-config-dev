@@ -22,6 +22,10 @@ ViewPropsTimestamp=2021,9,5,16,41,28.639
 [IconsMode]
 FontWeight=50
 
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
 [MainWindow]
 MenuBar=Disabled
 RestorePositionForNextInstance=false

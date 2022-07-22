@@ -32,7 +32,7 @@ ToolBoxButtonX=576
 
 [Containments][1][Wallpaper][org.kde.image][General]
 FillMode=0
-Image=/usr/share/wallpapers/Xero-Plasma54.jpg
+Image=file:///usr/share/wallpapers/Xero-Plasma54.jpg
 SlidePaths=/usr/share/defaultbg,$HOME/.local/share/wallpapers/
 
 [Containments][63]

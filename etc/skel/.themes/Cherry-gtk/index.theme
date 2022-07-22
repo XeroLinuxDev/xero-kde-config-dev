@@ -1,9 +1,0 @@
-[X-GNOME-Metatheme]
-Name=Cherrita
-Type=X-GNOME-Metatheme
-Comment=The Cherrita GTK Theme
-Encoding=UTF-8
-GtkTheme=Cherrita
-IconTheme=Cherrita
-CursorTheme=Cherrita
-CursorSize=24
