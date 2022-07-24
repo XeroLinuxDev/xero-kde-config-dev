@@ -137,11 +137,14 @@ ForegroundVisited=224,64,251
 
 [General]
 AccentColor=184,117,220
+ColorScheme=Layan
 ColorSchemeHash=625c32ae46f33771aca7694ab0deae5a44bbf41c
 Name=Layan
+XftHintStyle=hintslight
+XftSubPixel=rgb
 accentColorFromWallpaper=false
 shadeSortColumn=true
-widgetStyle=Lightly
+widgetStyle=kvantum
 
 [Icons]
 Theme=Tela-circle-purple-dark
